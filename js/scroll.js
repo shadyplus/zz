@@ -1,0 +1,1 @@
+$(document).ready(function(){$('a[href="#form"]').on("touchend, click",function(b){b.preventDefault();$("body,html").animate({scrollTop:$("#form").offset().top},800)})});
